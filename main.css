@@ -1,0 +1,74 @@
+:root{
+    --title-color: white;
+}
+body{
+    margin: 5% 10% auto 10%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #13070d;
+    -webkit-smoothing: antialiased;
+    height: 100%;
+}
+#page-home header{
+    color: var(--title-color);
+    display: flex;
+    justify-content: space-between;
+}
+#page-home a{
+    color: var(--title-color);
+
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+#page-home main{
+    color: var(--title-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#page-home main img{
+    width: 700px;
+    border-radius: 13px;
+    margin-bottom: 40px;
+}
+#page-home main .content-button{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#page-home main .content-button button{
+    border: 0;
+
+    color: var(--title-color);
+    background-color: rgb(88, 25, 88);
+    border-radius: 8px;
+    width: 270px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+#page-home footer{
+    margin-bottom: 10%;
+}
+#page-home footer .items-social {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35%;
+}
+#page-home footer .items-social button:hover{
+    background-color: rgb(141, 231, 231);
+    border-color: rgb(141, 231, 231);
+}
+#page-home footer .items-social button{
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    transition: 200ms;
+}
+#page-home footer .items-social button img{
+    width: 40px;
+    height: 40px;
+}
